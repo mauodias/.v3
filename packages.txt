@@ -1,0 +1,5 @@
+zsh
+tmux
+python3
+git
+w3m
