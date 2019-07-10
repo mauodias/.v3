@@ -17,4 +17,5 @@ set splitbelow
 set splitright
 
 " Visual changes
-hi CursorLineNR ctermbg=white
+hi CursorLineNR ctermfg=white
+colorscheme slate
