@@ -1,0 +1,20 @@
+" VIM CONFIG FILE
+
+" Basic configs
+set relativenumber
+syntax on
+" Saves document with \]
+nmap <leader>] :w<cr> 
+
+" Developers who use spaces have bigger salaries
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+filetype plugin indent on
+
+" Set split positions that make sense
+set splitbelow
+set splitright
+
+" Visual changes
+hi CursorLineNR ctermbg=white
