@@ -1,0 +1,21 @@
+# TMUX CONFIG FILE
+
+# Remap prefix key from 'C-b' to 'C-a'
+unbind C-b
+set-option -g prefix C-a
+bind-key C-a send-prefix
+
+# Split panes with | and -
+unbind '"'
+unbind %
+bind \ split-window -h
+bind - split-window -v
+
+# Switch panes using prefix and vi navigation
+bind -r h select-pane -L
+bind -r j select-pane -D
+bind -r k select-pane -U
+bind -r l select-pane -R
+
+# Set vi key bindings
+set-window-option -g mode-keys vi
