@@ -23,5 +23,15 @@ bind -r C-j resize-pane -D
 bind -r C-k resize-pane -U
 bind -r C-l resize-pane -R
 
+# Unbind directional keys
+unbind Up
+unbind Down
+unbind Left
+unbind Right
+unbind C-Up
+unbind C-Down
+unbind C-Left
+unbind C-Right
+
 # Set vi key bindings
 set-window-option -g mode-keys vi
